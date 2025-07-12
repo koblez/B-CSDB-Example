@@ -8,6 +8,9 @@ The code was tested under Linux and may not work under different operating syste
 
 ## C
 - `gcc -fno-stack-protector -no-pie -o buffer_overflow buffer_overflow.c`
+- `gcc -o user_after_free user_after_free.c`
+- `gcc -Wall -Werror -o patched_user_after_free patched_user_after_free.c`
+- `gcc -Wall -Werror -o patched_buffer_overflow patched_buffer_overflow.c`
 
 ## Rust
 

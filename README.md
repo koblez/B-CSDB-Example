@@ -1,8 +1,8 @@
 # B-CSDB-Example
 
-*Very* simple examples of exploitable C code with the corresponding exploit code and patch.
+*Very* simple example of exploitable C code with the corresponding exploit code and patch.
 
-Additionally the example is also ported to rust and zig.
+Additional rust and zig example to see how input - output operations work in these languages.
 
 The code was tested under Linux and may not work under different operating systems.
 
@@ -15,6 +15,8 @@ The code was tested under Linux and may not work under different operating syste
 ## Rust
 
 ## Zig
+
+- `zig build-exe src/main.zig` (in zig folder)
 
 ## Attack
 

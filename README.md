@@ -14,9 +14,11 @@ The code was tested under Linux and may not work under different operating syste
 
 ## Rust
 
+- `rustc src/main.rs` (in the rust folder)
+
 ## Zig
 
-- `zig build-exe src/main.zig` (in zig folder)
+- `zig build-exe src/main.zig` (in the zig folder)
 
 ## Attack
 
